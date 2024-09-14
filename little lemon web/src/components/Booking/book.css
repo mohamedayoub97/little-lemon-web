@@ -1,0 +1,80 @@
+h2 {
+  border-bottom: 1px solid var(--hg-cream);
+}
+
+.reserve {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px auto;
+}
+
+.reserve p {
+  width: 300px;
+  text-align: center;
+}
+
+.reserve-date input {
+  cursor: pointer;
+  border: 2px solid #d4c114;
+  width: 240px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 8px 5px;
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+.table-reserved li {
+  list-style: none;
+}
+
+.table-reserved ul {
+  padding: 0;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 320px;
+  margin: 20px auto;
+}
+
+.details ul:first-child {
+  color: var(--primary-green);
+}
+
+.details ul:nth-child(2) {
+  color: var(--hg-black);
+}
+
+svg {
+  vertical-align: middle;
+}
+
+.date-time {
+  display: flex;
+}
+
+.map {
+  margin-top: 30px;
+  width: 550px;
+  max-width: 80%;
+}
+
+@media (min-width: 720px) and (max-height: 420px) {
+  .reserve {
+    height: auto;
+  }
+}
